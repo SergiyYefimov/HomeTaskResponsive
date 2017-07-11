@@ -1,0 +1,131 @@
+/*_________________desktop first__________________*/
+@media only screen and (max-width: 1200px){
+	#latest-works .sec-body .item-img img{
+	display: inline-block;
+	width: 370px;
+	height: 320px;
+	margin-right: 17px;
+	/*float: left;*/
+	/*clear: both; */
+}
+	.container{
+		width: 992px;
+	}
+	#services{
+		height: 915px;
+	}
+	#services > div > div.sec-body > .item{
+		display: block;
+		width: 50%;
+		border-style: dotted;
+		border-color: green;
+		margin: 0 auto;
+	}
+}
+
+
+
+@media only screen and (max-width: 992px){
+	#latest-works .sec-body .item-img img{
+	display: inline-block;
+	width: 360px;
+	height: 310px;
+	margin-right: 17px;
+	/*float: left;*/
+	/*clear: both; */
+}
+	.container{
+		width: 768px;
+	}
+	#services{
+		height: 915px;
+	}
+	#services > div > div.sec-body > .item{
+		display: block;
+		width: 70%;
+		border-style: dotted;
+		border-color: green;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#latest-works .sec-body .item-img img {
+	display: block;
+	width: 375px;
+	height: 320px;
+	margin-right: 17px;
+	margin: 0 auto;
+	/*margin-left: calc(50% - 150px);*/
+	/*clear: both; */
+}
+	.container{
+		width: 460px;
+	}
+	#services{
+		height: 980px;
+	}
+	#services > div > div.sec-body > .item{
+		display: block;
+		width: 100%;
+		border-style: dotted;
+		border-color: green;
+	}
+}
+
+
+
+@media only screen and (max-width: 460px){
+	#latest-works .container .sec-body item-img{
+	display: block;
+	width: 360px;
+	height: 310px;
+	/*margin: 0 auto;*/
+	/*margin-right: 17px;*/
+	/*float: left;*/
+	/*clear: both; */
+}
+	.container{
+		width: 100%;
+	}
+	#services > div > div.sec-body > .item{
+		display: block;
+		width: 100%;
+		border-style: dotted;
+		border-color: green;
+	}
+	#latest-works .container .sec-body item-img{
+
+	}
+	#main{
+		height: 500px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 360px){
+	#latest-works .container .sec-body item-img{
+	display: block;
+	width: 350px;
+	height: 270px;
+	/*margin: 0 auto;*/
+	/*margin-right: 17px;*/
+	/*float: left;*/
+	/*clear: both; */
+}
+	.container{
+		width: 100%;
+	}
+	#services > div > div.sec-body > .item{
+		display: block;
+		width: 100%;
+		border-style: dotted;
+		border-color: green;
+	}
+	#latest-works .container .sec-body item-img{
+
+	}
+}
