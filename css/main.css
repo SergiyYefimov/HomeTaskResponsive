@@ -144,15 +144,25 @@ h1, h2 {
 	/*float: left;*/
 	/*clear: both; */
 }
+#latest-works .sec-body .item-img .image{
+	position: relative;
+		display: inline-block;
+	width: 370px;
+	height: 320px;
+	margin-right: 1px;
+}
 #latest-works .sec-body .item-img img{
 	display: inline-block;
-	width: 360px;
-	height: 310px;
-	margin-right: 17px;
+	width: 370px;
+	height: 320px;
+	margin-right: 1px;
 	/*float: left;*/
 	/*clear: both; */
 }
-
+	#latest-works .sec-body .item-img {
+	margin-left: 0px;
+	}
+	.co
 
 
 
@@ -190,4 +200,45 @@ footer .footer-content hr{
 	margin-top: 17px;
 	margin-bottom: 40px;	
 	width: 50px;
+}
+
+/*---------------------------------Overlay-----------------------------------*/
+
+.miniOverlay{
+	width: calc(100% - 40px);
+	height: 0;
+	/*height: 0;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background-color: rgba(0,0,0, 0.8);
+	transition: all .3s;
+	/*padding: 20px;*/
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+#latest-works .container .sec-body .item-img .image:hover .miniOverlay{
+	height: 100%;
+}
+.miniOverlay p{
+	color: #fff;
+	opacity: 0;
+	transition: all 1s;
+	margin-top: 110px;
+	font-weight: 900;
+	font-size: 19px;
+	text-align: center;
+}
+.miniOverlay button{
+	margin-left: 115px;
+	visibility: hidden;
+	transition: all; .3s;
+}
+#latest-works .container .sec-body .item-img .image:hover .miniOverlay p{
+	opacity: 1;
+}
+#latest-works .container .sec-body .item-img .image:hover .miniOverlay button{
+	visibility: visible;
 }

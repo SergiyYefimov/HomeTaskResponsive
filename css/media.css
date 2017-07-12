@@ -1,13 +1,17 @@
 /*_________________desktop first__________________*/
 @media only screen and (max-width: 1200px){
-	#latest-works .sec-body .item-img img{
+	#latest-works .sec-body .item-img .image{
 	display: inline-block;
 	width: 370px;
 	height: 320px;
-	margin-right: 17px;
+	/*margin-right: 1px;*/
 	/*float: left;*/
 	/*clear: both; */
+	margin: 0 auto;
 }
+	#latest-works .sec-body .item-img {
+	margin-left: 120px;
+	}
 	.container{
 		width: 992px;
 	}
@@ -26,14 +30,18 @@
 
 
 @media only screen and (max-width: 992px){
-	#latest-works .sec-body .item-img img{
+	#latest-works .sec-body .item-img .image{
 	display: inline-block;
-	width: 360px;
-	height: 310px;
-	margin-right: 17px;
+	width: 370px;
+	height: 320px;
+	/*margin-right: 17px;*/
 	/*float: left;*/
 	/*clear: both; */
-}
+	margin: 0 auto;
+	}
+	#latest-works .sec-body .item-img {
+	margin-left: 0px;
+	}
 	.container{
 		width: 768px;
 	}
@@ -51,15 +59,18 @@
 
 
 @media only screen and (max-width: 768px){
-	#latest-works .sec-body .item-img img {
+	#latest-works .sec-body .item-img .image {
 	display: block;
-	width: 375px;
+	width: 370px;
 	height: 320px;
 	margin-right: 17px;
 	margin: 0 auto;
 	/*margin-left: calc(50% - 150px);*/
 	/*clear: both; */
 }
+	#latest-works .sec-body .item-img {
+	margin-left: 0px;
+	}
 	.container{
 		width: 460px;
 	}
@@ -77,15 +88,18 @@
 
 
 @media only screen and (max-width: 460px){
-	#latest-works .container .sec-body item-img{
+	#latest-works .container .sec-body .item-img .image{
 	display: block;
-	width: 360px;
-	height: 310px;
+	width: 370px;
+	height: 320px;
 	/*margin: 0 auto;*/
 	/*margin-right: 17px;*/
 	/*float: left;*/
 	/*clear: both; */
 }
+	#latest-works .sec-body .item-img {
+	margin-left: 0px;
+	}
 	.container{
 		width: 100%;
 	}
@@ -107,15 +121,18 @@
 
 
 @media only screen and (max-width: 360px){
-	#latest-works .container .sec-body item-img{
+	#latest-works .container .sec-body .item-img .image{
 	display: block;
-	width: 350px;
-	height: 270px;
+	width: 370px;
+	height: 320px;
 	/*margin: 0 auto;*/
 	/*margin-right: 17px;*/
 	/*float: left;*/
 	/*clear: both; */
 }
+	#latest-works .sec-body .item-img {
+	margin-left: 0px;
+	}
 	.container{
 		width: 100%;
 	}
