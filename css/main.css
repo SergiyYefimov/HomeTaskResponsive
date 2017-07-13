@@ -162,10 +162,16 @@ h1, h2 {
 	#latest-works .sec-body .item-img {
 	margin-left: 0px;
 	}
-	.co
 
 
-
+button{
+	width: 140px;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+}
 
 
 /*===========================FOTER=======================*/
